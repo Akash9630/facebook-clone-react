@@ -1,0 +1,109 @@
+body {
+  font: 1.6 helvetica;
+  box-sizing: border-boX;
+  background-color: #f0f2f5;
+}
+.Login {
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  border-radius: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.facebooktext {
+  padding-top: 1rem;
+  font-size: 4rem;
+  color: #1877f2;
+  font-weight: 700;
+}
+.title {
+  font-size: 2rem;
+  color: black;
+  font-weight: 500;
+}
+.LoginContainer {
+  border: white 0.3rem solid;
+  background-color: white;
+  height: 23rem;
+  width: 26rem;
+  padding: 1rem;
+  border-radius: 0.7rem;
+}
+input[type="email"] {
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type="password"] {
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input ::placeholder {
+  font-size: 1.3rem;
+}
+
+.btn {
+  flex-direction: row;
+  width: 100%;
+  border: none;
+  background-color: #1877f2;
+  box-sizing: border-box;
+  padding: 15px 32px;
+  justify-content: border-box;
+  margin: 4px 2px;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: white;
+}
+
+.forget a {
+  color: #1877f2;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 1rem;
+  padding: 20px;
+}
+.forget a {
+  border-bottom-style: solid;
+  border-bottom-color: hsl(0, 0%, 73%);
+  border-width: 0.1;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f0f2f5;
+  background-color: #42b72a;
+  border: none;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+  width: 60%;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  margin-left: 20%;
+}
+.page a {
+  color: black;
+  display: inline-block;
+  justify-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.page {
+  font-size: 1rem;
+  padding-left: 10%;
+  margin-right: 0;
+}
+/* .LoginDetails {
+  border-bottom: 0.1rem black solid;
+} */
